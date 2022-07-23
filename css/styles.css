@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Neucha&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  --DarkBlue: hsl(233, 26%, 24%);
+  --white: #FFFFFF;
+  --fontBlue: #287abf;
+  --buttonBlue: #287abf;
+  --buttonPink: #f62681;
+  --Orange: #e08436;
+  --fontBlueColor: #1b426d;
+  --backgroundColor: #2d6ea6;
+  --VeryLightGray: #eef2f5;
+  --featureBlue: #1b426d;
+}
+
+* {
+
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Neucha', cursive;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.2s linear;
+  scroll-behavior: smooth;
+}
+
+
+
+
+.main-container {
+  color: var(--DarkBlue);
+  /* background-image: url('../images/gradient.jpg'); */
+  background-color: var(--backgroundColor);
+  height: 40rem;
+
+}
+
+.container-header {
+  width: 80%;
+}
+
+.container-header img {
+  margin-top: 2rem;
+}
+
+.container-header p {
+  font-size: 11px;
+  padding-left: 8px;
+}
+
+.container-header .colRight {
+  margin-left: 25rem;
+
+}
+
+.container .featuresContainer {
+  margin-top: 5rem;
+}
+
+.container-header h1 {
+  font-weight: 400;
+  font-size: 42px;
+  margin-top: 2rem;
+}
+
+.container-header .row {
+  margin-right: 1px;
+}
+
+.container-header .col {
+  padding-right: 1px;
+}
+
+.container-header .col .cardColumn {
+  margin-top: 5rem;
+}
+
+.container-header .cardView {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 10px;
+}
+
+.container-header .card-body {
+
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  margin-bottom: 1px;
+  margin-top: -10;
+  padding: 0 5 0 2;
+  padding-top: -2px;
+}
+
+.container-header .card-body img {
+  padding-top: 0;
+  margin: 11;
+}
+
+.form-select option {
+  color: black;
+}
+
+.form-select option:hover {
+  background-color: #1b426d;
+}
+
+.btnSubmit {
+  background-color: var(--buttonPink);
+  color: var(--white);
+  height: 4rem;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.btnSubmit:hover {
+  background-color: var(--buttonPink);
+  color: var(--white);
+}
+
+.consultationRow {
+  padding-bottom: 3rem;
+  background-color: #FFFFFF
+}
+
+.container .docImage {
+  position: relative;
+  height: 25px;
+}
+
+.colConsultation h1 {
+  margin-left: 5rem;
+  padding-top: 5rem;
+  color: var(--fontBlue);
+  font-weight: 600;
+}
+
+.colDivLeft {
+  height: 25px;
+}
+
+.docImage img {
+  height: fit-content;
+  z-index: 1
+}
+
+.colDiv {
+  border-bottom: 3px solid #287abf;
+}
+
+.colDiv h2 {
+  margin-bottom: 0;
+}
+
+.colConsultation h2 {
+  margin-left: 5rem;
+  color: black;
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+
+.colConsultation h3 {
+  margin-left: 2rem;
+  color: black;
+  font-size: 14px;
+  padding-bottom: 2rem;
+  font-weight: 400;
+}
+
+.colConsultation .normalText {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-left: 5rem;
+}
+
+.colConsultation .boldText {
+  font-weight: 800;
+  margin-left: 5rem;
+}
+
+.detailsContainer {
+  background-color: var(--VeryLightGray);
+}
+
+.detailsContainer p {
+  color: var(--featureBlue);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.detailsContainer .details p {
+  font-size: 25px;
+}
+
+.advantagesContainer h1 {
+  color: var(--featureBlue);
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.advantagesContainer p {
+  font-size: 14px;
+  color: var(--featureBlue);
+  padding-top: 1rem;
+}
+
+.advantagesContainer table tr th {
+  color: var(--featureBlue);
+}
+
+.advantagesContainer table tr td {
+  font-size: 16px;
+  align-items: center;
+  color: var(--featureBlue);
+}
+
+.advantagesContainer .iconsImg {
+  margin-top: 0;
+  margin-bottom: -1px;
+}
+
+.advantagesContainer table tr td {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.btnCostestimate .container .btnFormat {
+  margin-top: 35rem;
+}
+
+.costestimateContainer .btnCostestimate {
+  background-color: var(--buttonPink);
+  color: var(--white);
+  font-weight: 300;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.costestimateContainer .btnCostestimateBlue {
+  background-color: var(--buttonBlue);
+  color: var(--white);
+  font-weight: 300;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.costestimateContainer .textAccess {
+  color: var(--buttonPink);
+  font-size: 18px;
+}
+
+.costestimateContainer .textDesc {
+  color: var(--buttonPink);
+  font-size: 42px;
+  margin-top: 0;
+}
+
+.detailsContainer .btnCallback {
+  background-color: var(--buttonPink);
+  color: var(--white);
+  font-weight: 400;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.detailsContainer .helpText {
+  font-size: 42px;
+  color: var(--buttonPink);
+  font-weight: 500;
+}
+
+.listData {
+  margin-top: 2rem;
+}
+
+.listData li {
+  color: black;
+}
+
+
+.detailsContainer .text-list {
+  color: var(--fontBlue);
+  font-weight: 500;
+}
+
+.colDesign {
+  border-right: 3px solid #287abf;
+  padding-top: 2px;
+}
+
+.frequentlyaskedContainer {
+  background-color: white;
+  padding-bottom: 5rem;
+}
+
+.frequentlyaskedContainer h1 {
+  color: var(--featureBlue);
+  font-size: 26px;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+
+.frequentDiv {
+  margin-top: 3rem;
+  border: 2px solid #bebfbf;
+  width: 80%;
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+}
+
+.frequentDiv p {
+  font-size: 18px;
+  color: var(--featureBlue);
+  padding-top: 1rem;
+  font-weight: 400;
+
+}
+
+.detailsContainer .txtChooseUs {
+  color: #287abf;
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.chooseusDiv {
+  margin-top: 3rem;
+  width: 50%;
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.chooseusDiv .spanText {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.knowmoreContainer {
+  padding-bottom: 3rem;
+  background-color: #FFFFFF;
+
+}
+
+.knowmoreContainer .containerKnowMore {
+  width: 80%;
+}
+
+.knowmoreContainer .containerKnowMore h1 {
+  color: var(--fontBlue);
+  font-size: 34px;
+}
+
+.knowmoreContainer .containerKnowMore span {
+  color: var(--fontBlue);
+  font-size: 34px;
+}
+
+.knowmoreContainer .containerKnowMore .custom-list {
+  color: black;
+  margin-top: 2rem;
+}
+
+.knowmoreContainer .containerKnowMore .text-list {
+  color: var(--fontBlue);
+  font-weight: 400;
+}
+
+
+
+.knowmoreContainer .btnCostestimateBlue {
+  background-color: var(--buttonBlue);
+  color: var(--white);
+  font-weight: 300;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.knowmoreContainer .btnCostestimatePink {
+  background-color: var(--buttonPink);
+  color: var(--white);
+  font-weight: 300;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.containerDesc {
+  margin-top: 3rem;
+
+  width: 60%;
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.containerDesc h1 {
+  font-weight: 400;
+  color: var(--featureBlue);
+  font-size: 36px;
+}
+
+.containerDesc span {
+  background-color: #acacad;
+}
+
+
+.containerDesc .btnContainerDescPink {
+  background-color: var(--buttonPink);
+  color: var(--white);
+  font-weight: 300;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 300px;
+}
+
+.containerDesc .btnContainerDesc {
+  background-color: var(--buttonBlue);
+  color: var(--white);
+  font-weight: 300;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.containerCopyright {
+  margin-top: 3rem;
+  background-color: var(--backgroundColor);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.containerCopyright p {
+  color: white;
+  font-weight: 200;
+  padding: 6px;
+  font-size: 16px;
+}
+
+@media (min-width: 600px) {
+  .container-header {
+    align-items: center;
+  }
+
+  .main-container {
+    align-items: center;
+  }
+
+
+}
